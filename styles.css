@@ -1,1 +1,35 @@
-/* Write your CSS here! */
+/*margin- auto can center an element
+DO: padding- extra space within an element
+DO: element slector- to to give the body element the margin of 8px and display type of block
+class
+id selector- is given to one element, 
+DO:id turn a heading into a  mainHeading and use id slector in styles to color value red paragraph on page the id of testP and 
+class selector- is group of HTML with same styling, class name determined by programmer, unique and have meaning like a variable name
+DO:a class name of funParagraph with class selector in styles give it a color value of green
+DO: body element a margin value of 8px and display type of block*/
+
+
+body{
+    margin: 1 em;
+    margin: 8px 1em 0 auto;
+    display: block;
+    color: white;
+    background-color: greenyellow;
+}
+/*element selector*/
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+testP {
+    mainHeading: color: red;
+}
+em {
+    font-style: italic;
+    font-size: x-large;
+    font-weight: bold;
+}
+}
