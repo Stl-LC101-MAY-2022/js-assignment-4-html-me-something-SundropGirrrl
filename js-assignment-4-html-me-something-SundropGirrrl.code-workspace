@@ -4,5 +4,12 @@
 			"path": "."
 		}
 	],
-	"settings": {}
+	"settings": {
+		"notebook.cellFocusIndicator": "gutter",
+		"notebook.showCellStatusBar": "hidden",
+		"notebook.showFoldingControls": "always",
+		"editor.wordWrap": "on",
+		"editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+		"zenMode.fullScreen": false
+	}
 }
